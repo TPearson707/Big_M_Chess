@@ -30,12 +30,19 @@
         border: 1px solid black;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);  
 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+
+        gap: 30px;
+
         .winHead {
             color: red;
         }
 
         .table {
-            width: 100%;
+            margin: 0 auto;
         }
 
         th {
