@@ -10,29 +10,20 @@ const PrizeWinners = () => {
             </div>
 
             <div className="tableContainer">
-                <h1>Prize Winners</h1>
+                
+                <h1 className="winHead">Prize Winners</h1>
 
-                <div className="openContainer">
-                    <table>
-                        <tr className="headerRow">
-                            <th>OPEN</th>
-                        </tr>
-                    </table>
-                </div>
-
-                <div className="openContainer">
-                    <table>
-                        <tr className="headerRow">
-                            <th>MAJOR</th>
-                        </tr>
-                        <tr>
-                            <th></th>
-                            <th></th>
-                            <th>Points</th>
-                            <th>Prize</th>
-                        </tr>
-                    </table>
-                </div>
+                <table>
+                    <tr>
+                        <th colspan="4">Open</th>
+                    </tr>
+                    <tr>
+                        <td>item</td>
+                        <td>item</td>
+                        <td>item</td>
+                        <td>item</td>
+                    </tr>
+                </table>
 
             </div>
         </div>

@@ -23,36 +23,42 @@
     }
 
     .tableContainer{
-        position: inherit;
+        
         padding: 20px;
         margin: 0px 10% 0px 10%;
         background-color: white;
-        color: red;
         border: 1px solid black;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);  
 
-        .openContainer {
-            position: inherit;
-            margin: 10px 15% 10px 15%;
-            justify-content: center;
-            background-color: white;
-            color: black;
-            
-            table {
-                width: 100%;
-                table-layout: fixed;
-                display: flex; 
-                flex-direction: column;
-                background-color: black;
-              }
+        .winHead {
+            color: red;
+        }
 
-            .headerRow {
-                background: linear-gradient(to bottom, #cc0000, red);
-                color: white;
-            }
+        .table {
+            width: 100%;
+        }
+
+        th {
+            color: white;
+            background: linear-gradient(to bottom, #cc0000, red);
+        }
+        
+        th, td {
+            padding: 5px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
 
 
+
+        .headerRow {
+            background: linear-gradient(to bottom, #cc0000, red);
+            color: white;
+        }
+    
 
         }
-    }
 }
