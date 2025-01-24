@@ -4,9 +4,15 @@ import PrizeWinners from "./components/prizewinners/PrizeWinners";
 
 const App = () => {
   return (
-    <section className="Homepage">
-      <PrizeWinners/>
-    </section>
+    <div>
+      <section className="Homepage">
+        <PrizeWinners/>
+      </section>
+
+      <section className="Banana">
+        Banana
+      </section>
+      </div>
   )
 }
 
